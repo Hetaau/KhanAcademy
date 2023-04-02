@@ -1,0 +1,18 @@
+CREATE TABLE store_items (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER, price INTEGER, aisle INTEGER, color TEXT);
+INSERT INTO store_items VALUES (1, "shirt", 15, 12, 5, "red");
+INSERT INTO store_items VALUES (2, "pants", 20, 33, 2, "blue");
+INSERT INTO store_items VALUES (3, "socks", 55, 5, 1, "grey");
+INSERT INTO store_items VALUES (4, "shorts", 12, 19, 2, "blue");
+INSERT INTO store_items VALUES (5, "t-shirt", 21, 10, 5, "pink");
+INSERT INTO store_items VALUES (6, "jacket", 13, 45, 6, "black");
+INSERT INTO store_items VALUES (7, "vest", 9, 33, 6, "black-white");
+INSERT INTO store_items VALUES (8, "leggins", 28, 29, 2, "print");
+INSERT INTO store_items VALUES (9, "joga pants", 45, 40, 2, "print");
+INSERT INTO store_items VALUES (10, "wool socks", 22, 17, 1, "striped");
+INSERT INTO store_items VALUES (11, "baseball cap", 5, 12, 11, "blue");
+INSERT INTO store_items VALUES (12, "wool hat", 6, 14, 11, "red");
+INSERT INTO store_items VALUES (13, "sun hat", 19, 26, 11, "beige");
+INSERT INTO store_items VALUES (14, "running shoes", 9, 38, 12, "purple");
+INSERT INTO store_items VALUES (15, "flip flops", 26, 7, 12, "green");
+SELECT * FROM store_items;
+SELECT name, price, quantity FROM store_items ORDER BY price
